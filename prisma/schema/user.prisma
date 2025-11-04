@@ -1,3 +1,5 @@
+// Prismar aro akta joss feature holo, enum gulo ke onno akta file a rakhesi. but jei file a use kortesi, seikhane kono import korte hoini. Inteligently seitake case kore nissa.
+
 model User {
     id                 String     @id @default(uuid())
     email              String     @unique
