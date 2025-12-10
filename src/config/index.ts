@@ -13,4 +13,6 @@ export default {
     api_key: process.env.CLOUDINARY_API_KEY,
   },
   openRouterApiKey: process.env.OPENROUTER_API_KEY,
+  stripeSecretKey: process.env.STRIPE_SECRET_KEY,
+  clientUrl: process.env.CLIENT_URL,
 };
